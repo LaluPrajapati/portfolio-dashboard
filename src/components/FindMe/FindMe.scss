@@ -1,0 +1,30 @@
+.find-me {
+  display: flex;
+  gap: 0.75rem;
+  .list-item {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    transition: 0.5s ease-in-out;
+    background-color: #323232;
+    border: 1px solid #F9F9F980;
+    &:hover {
+      transform: scale(1.04);
+      cursor: pointer;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .find-me {
+    .list-item {
+      a {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}
