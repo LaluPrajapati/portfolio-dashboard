@@ -4,7 +4,7 @@ export const sidebarRoutes = [
   {
     id: "about",
     label: "About",
-    linkText: "/",
+    linkText: "/portfolio-dashboard",
     icon: <FaUser />,
   },
   {

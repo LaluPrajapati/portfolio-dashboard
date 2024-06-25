@@ -10,7 +10,7 @@ import Profile from '../Profile/Profile';
 const Sidebar = () => {
   let location = useLocation();
   let path = location.pathname;
-  let updatedPath = path !== '/' ? path.replace('/','') : path;
+  let updatedPath = path !== '/portfolio-dashboard' ? path.replace('/portfolio-dashboard/','') : path;
   const [currentIndex, setCurrentIndex] = useState(updatedPath);
   const [isOpen, setIsOpen] = useState(false);
 
