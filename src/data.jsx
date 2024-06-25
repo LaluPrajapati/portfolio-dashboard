@@ -4,7 +4,7 @@ export const sidebarRoutes = [
   {
     id: "about",
     label: "About",
-    linkText: "/",
+    linkText: "/portfolio-dashboard",
     icon: <FaUser />,
   },
   {
@@ -30,12 +30,6 @@ export const sidebarRoutes = [
     label: "Find me",
     linkText: "find-me",
     icon: <FaEye />,
-  },
-  {
-    id: "resume",
-    label: "Resume",
-    linkText: "resume",
-    icon: <FaRegFileLines />,
   },
   {
     id: "coverletter",

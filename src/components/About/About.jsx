@@ -16,7 +16,7 @@ const About = () => {
         </p>
       </div>
       <div className="intro-cta">
-        <Link to="/projects" className="btn btn-primary btn-primary-hover">Projects</Link>
+        <Link to="/portfolio-dashboard/projects" className="btn btn-primary btn-primary-hover">Projects</Link>
       </div>
     </div>
   )

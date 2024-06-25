@@ -8,7 +8,7 @@ const Profile = ({ setCurrentIndex }) => {
   return (
     <div className='profile'>
       <div className='user-detail'>
-        <Link to='/' onClick={() => setCurrentIndex('/')}>
+        <Link to='/portfolio-dashboard' onClick={() => setCurrentIndex('/')}>
           <img src={UserImg} alt='user' />
         </Link>
         <h3 className='user-name'>Lalu Prajapati</h3>

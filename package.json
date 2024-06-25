@@ -2,7 +2,7 @@
   "name": "portfolio-dashboard",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://laluprajapati.github.io/",
+  "homepage": "https://laluprajapati.github.io/portfolio-dashboard/",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
