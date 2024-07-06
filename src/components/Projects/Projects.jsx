@@ -13,7 +13,7 @@ const Projects = () => {
       {projects.map(project =>
           <div className='project-card'>
             <div className='image'>
-              <img src={`/src/assets/${project.img}`} alt='' />
+              <img src={`src/assets/${project.img}`} alt='' />
             </div>
             <div className='overview'>
               <p>{project.overview}</p>
