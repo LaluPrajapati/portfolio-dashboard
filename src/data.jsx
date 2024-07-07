@@ -1,10 +1,20 @@
 import { FaChartLine, FaDiagramProject, FaBook, FaUser, FaEye, FaRegNewspaper, FaRegFileLines } from "react-icons/fa6";
 
+import Heathrow from "./assets/heathrow-logo.svg";
+import Dryice from "./assets/dryice.png";
+import VideoReady from "./assets/vedio-ready-logo.svg";
+import SpellingBee from "./assets/spellingbee.svg";
+import Idfc from "./assets/idfcmutualfund.svg";
+import Channel4 from "./assets/channel4_logo.svg";
+import Mytoll from "./assets/mytoll.png";
+import Brightstar from "./assets/brightstar.jpg";
+import Rayban from "./assets/ray_ban.svg";
+
 export const sidebarRoutes = [
   {
     id: "about",
     label: "About",
-    linkText: "/portfolio-dashboard",
+    linkText: "/portfolio-dashboard/",
     icon: <FaUser />,
   },
   {
@@ -100,7 +110,7 @@ export const projects = [
     domain: 'e-Commerce (B2C)',
     module: 'Desktop Mega Menu, Mobile Navigation, Hero Banner Carousel, Flight Widget, Product Slider',
     website: 'https://boutique.heathrow.com/',
-    img: 'heathrow-logo.svg'
+    img: Heathrow
   },
   {
     title: 'DRYiCE Connect',
@@ -123,7 +133,7 @@ export const projects = [
     domain: 'Product, SIAM application',
     module: 'Authentication, Node API points, Listing',
     website: 'http://www.dryice-connect-siamaas.com/',
-    img: 'dryice.png'
+    img: Dryice
   },
   {
     title: 'VideoReady',
@@ -151,7 +161,7 @@ export const projects = [
     domain: 'OTT and TV',
     module: 'Frontend Architect setup, Auth, Navigation, Data upload Model',
     website: 'https://www.videoready.tv/',
-    img: 'vedio-ready-logo.svg'
+    img: VideoReady
   },
   {
     title: 'Spelling Bee',
@@ -173,7 +183,7 @@ export const projects = [
     domain: 'Education(online quize)',
     module: 'Login, Register and Quize',
     website: 'https://online-test.spellingbee.com/',
-    img: 'spellingbee.svg'
+    img: SpellingBee
   },
   {
     title: 'IDFC AMC',
@@ -195,7 +205,7 @@ export const projects = [
     domain: 'Banking (Mutual Fund)',
     module: 'Checkout, Static Content etc.',
     website: 'https://bandhanmutual.com/',
-    img: 'idfcmutualfund.svg'
+    img: Idfc
   },
   {
     title: 'Channel4',
@@ -213,7 +223,7 @@ export const projects = [
     domain: 'TV',
     module: 'Advertisement content',
     website: 'https://www.channel4.com/',
-    img: 'channel4_logo.svg'
+    img: Channel4
   },
   {
     title: 'MyToll',
@@ -233,7 +243,24 @@ export const projects = [
     domain: 'Shipment',
     module: 'Dashboard',
     website: 'https://www.mytoll.com/',
-    img: 'mytoll.png'
+    img: Mytoll
+  },
+  {
+    title: 'Brightstar Corp. Telecommunications',
+    overview: `Brightstar is the global leader of end-to-end device lifecycle management solutions.
+    They work with carrier, retail and enterprise customers in over 50 countries, touching every stage of a device’s lifecycle, 
+    from when it’s manufactured to the moment it’s time to trade it in and re-market it.`,
+    responsibilities: [
+      'Converting UX into user interface',
+      'Browser compatibilities.',
+    ],
+    tools: 'ISML, JavaScript, jQuery, Bootstrap, HTML, CSS, Intershop',
+    org: 'HCL Technology',
+    client: 'Brightstar Corp. Telecommunications',
+    domain: 'e-Commerce',
+    module: 'User Interface',
+    website: 'http://www.brightstar.com',
+    img: Brightstar
   },
   {
     title: 'Ray & Ban',
@@ -253,6 +280,6 @@ export const projects = [
     domain: 'e-Commerce',
     module: 'pickup point',
     website: 'https://www.ray-ban.com/',
-    img: 'ray_ban.svg'
+    img: Rayban
   },
 ]

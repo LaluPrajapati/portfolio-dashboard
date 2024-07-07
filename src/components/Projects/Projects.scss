@@ -34,43 +34,19 @@
       line-height: 1.2;
       font-size: 0.75rem;
       text-align: center;
-    }
 
-    .project-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      opacity: 0;
-      transition: .45s ease-in-out;
-      color: #ffffff;
-      z-index: 1;
-      background-color: #323232;
-  
-      .details {
+      .project-action {
         display: flex;
-        font-size: 0.75rem;
-        border-bottom: 1px solid #b2b2b2;
-        padding: 0.5rem;
-        gap: 1rem;
-  
-        span {
-          flex: 1;
-        }
-  
-        p {
-          flex: 2;
+        justify-content: center;
+        flex-flow: row wrap;
+
+        button {
+          margin-left: 5px;
+          font-size: 0.75rem;
+          cursor: pointer;
         }
       }
     }
-
-    &:hover {
-      .project-overlay{
-        opacity: 1;
-      }
-    }
-
   }
 }
 

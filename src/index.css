@@ -116,6 +116,28 @@ a {
   text-align: center;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 5px;  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #999999;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777777;
+}
+
 @media only screen and (max-width: 768px) {
   .portfolio-dashboard {
     padding: 0;
@@ -128,5 +150,13 @@ a {
 
   .dashboard-content {
     padding-top: 3rem;
+  }
+
+  .btn-primary {
+    padding: 1rem;
+  }
+
+  .modal {
+    width: 85%;
   }
 }

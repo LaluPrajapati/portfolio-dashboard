@@ -10,7 +10,7 @@ import CoverLetter from "./components/CoverLetter.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/portfolio-dashboard",
+    path: "/portfolio-dashboard/",
     element: <Layout />,
     children: [
       {
@@ -26,7 +26,7 @@ const router = createBrowserRouter([
         element: <Skills />,
       },
       {
-        path: "/portfolio-dashboard",
+        path: "/portfolio-dashboard/",
         element: <About />,
       },
       {

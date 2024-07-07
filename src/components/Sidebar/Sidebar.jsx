@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from "react-router-dom";
 import { FaBars, FaXmark } from 'react-icons/fa6';
 
@@ -10,10 +10,10 @@ import Profile from '../Profile/Profile';
 const Sidebar = () => {
   let location = useLocation();
   let path = location.pathname;
-  let updatedPath = path !== '/portfolio-dashboard' ? path.replace('/portfolio-dashboard/','') : path;
+  let updatedPath = path !== '/portfolio-dashboard/' ? path.replace('/portfolio-dashboard/','') : path;
   const [currentIndex, setCurrentIndex] = useState(updatedPath);
   const [isOpen, setIsOpen] = useState(false);
-
+  
   const handleNavbarToggle = () => {
     setIsOpen(!isOpen);
   }
